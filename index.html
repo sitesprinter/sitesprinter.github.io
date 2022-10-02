@@ -5,45 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        h1 {
+            color: purple;
+        }
+    </style>
 </head>
 <body>
    <header>
-    <h1>Welcome to my&nbsp;first&nbsp;website</h1>
+    <h1>Welcome to my first website</h1>
     <a href="contact.html">Contact</a>
     <!-- <a href="https://www.duckduckgo.com">Google it</a> --><br>
-    </header>
+   </header>
 
-    <article>
-        <h3>This is &lt;something&gt; my first blog post</h3>
-        <p>That's the content of the post</p>
-        <br>
-    </article>
+    <!-- <div style="clear: both;"></div> -->
 
+    <div id="main-content">
 
-    <div><!-- div is the block element-->
-    <mark>My skills</mark>
-    <table border="1">
-        <tr>
+        <section id="articles">
+            <article style="border: 1px solid black; padding-left: 30px;">
+                <h3>This is &lt;something&gt; my first blog post</h3>
+                <p>That's the content of the post</p>
+            </article>
+        
+            <article>
+                <h3 style="color:blueviolet">This is &lt;something&gt; my second blog post</h3>
+                <p>That's the content of the post</p>
+            </article>
+        </section>
+    
+        <div id="skills"><!-- div is the block element-->
+        <mark><b style="font-size: 33px; color:darkcyan">My skills</b></mark>
+            <table>
+            <tr>
             <th>Technology</th>
             <th>Level</th>
-        </tr>
-        <tr>
+            </tr>
+            <tr>
             <td>HTML</td>
             <td>4</td>
-        </tr>
-        <tr>
+            </tr>
+            <tr>
             <td>CSS</td>
-            <td>1</td>
-        </tr>
-    </table>    
-    
+            <td>3</td>
+            </tr>
+            </table>
+        </div>
+        <!-- <div style="clear: both;"></div> // blokuje opływanie -->
     </div>
-
     <footer>
     <div>
-        Footer area. <small><sup class="sup_element" style="color: red" ><i>&copy;</i> <strong>Me</strong> & <b>My Tutor</b></sup></small>
+        Footer area. <small><sup style="color: red" ><i class="i_element">&copy;</i> <strong>Me</strong> & <b>My Tutor</b></sup></small>
     </div>
+    <!-- <p>supported by udemy</p> -->
     </footer>
     <script src="scripts.js"></script>
 </body>

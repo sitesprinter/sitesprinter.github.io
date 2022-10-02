@@ -1,0 +1,167 @@
+body {
+    font-family: 'Chakra Petch';
+    font-size: 21px;
+    /* margin-left: 100px;
+    margin-top: 100px; */
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 1,5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* tdselector{
+    text-align: center;propety: value;
+} */
+
+table {
+    line-height: 180%;
+    width: 300px;
+    height: 150px;
+    border-top: 3px solid #dc143c;
+    color: darkcyan;
+    font-weight: bold;
+}
+
+th {
+   color: chartreuse;
+   text-align: left;
+}
+td {
+   text-align: center;
+}
+
+mark {
+    border-radius: 6px;
+}
+
+/* body {
+    color: midnightblue;
+} 
+dotyczy priorytetu nad zewnętrznym plikiem css*/
+
+h3 {
+    color:crimson;
+    font-size: 33px;
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    color: mediumvioletred;
+    font-weight: bold;
+    margin: 0;
+    /* text-indent: 45px; */
+}
+
+/* albo można kilka za razem: */
+ /*
+ h3, p {
+    color: crimson;
+ }
+ */
+
+ .i_element {
+    color: midnightblue;
+ }
+
+ footer strong {
+    text-decoration: underline wavy #24a7ff;
+ }
+
+ /* footer p {
+    color: brown;
+ } 
+ dotyczy potomka (nie tylko dziecko ale też wnukiem prawnukiem itd.*/
+
+ /* footer > p {
+    color: brown;
+ } 
+ dot. "dziecka" bezpośredniego*/
+
+ div#main-content {
+    background-image: linear-gradient(144deg, #fd5f7f, rgb(0, 129, 204));
+    padding-left: 30px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: nowrap; */
+    /* flex-direction: wrap; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: flex-end; */
+ }
+
+ a:hover {
+    color: rgba(186, 37, 255, 0.973);
+ }
+ a {
+   color: #dc143c;
+}
+
+ table tr:hover {
+    color: chartreuse;
+ }
+
+ /* span {
+    display: block;
+ } */
+
+ /* header h1 {
+    float: left;
+ }
+
+ header a {
+    float: right;
+ } */
+
+ /* #articles {
+    padding: 30px;
+    padding-right: 90px;
+    float: left;
+ } */
+
+ article {
+   margin-bottom: 90px;
+ }
+
+ #articles {
+    flex-grow: 1;
+ }
+
+ #skills {
+    flex-grow: 1;
+    align-self: ;
+ }
+
+ header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    background-image: linear-gradient(15deg, #fd5f7f, rgb(0, 129, 204));
+ }
+ footer {
+   left: 0px;
+   bottom: 0px;
+   padding: 10px;
+   text-align: center;
+   width: 100%;
+   background-color: rgb(161, 89, 255);
+ }
+
+ @media screen and (min-width: 600px) {
+   footer {
+      position: fixed;
+   }
+   
+ }
+ @media screen and (max-width: 600px) {
+   div#main-content {
+      flex-direction: column;
+   }
+ }
