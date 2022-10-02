@@ -43,7 +43,7 @@ mark {
 dotyczy priorytetu nad zewnętrznym plikiem css*/
 
 h3 {
-    color:crimson;
+    color:rgb(95, 0, 173);
     font-size: 33px;
     font-weight: bold;
     margin: 0;
@@ -143,7 +143,7 @@ p {
     justify-content: space-between;
     padding: 30px;
     align-items: center;
-    background-image: linear-gradient(15deg, #fd5f7f, rgb(0, 129, 204));
+    background-image: linear-gradient(9deg, #fd5f7f, rgb(0, 129, 204));
  }
  footer {
    left: 0px;
