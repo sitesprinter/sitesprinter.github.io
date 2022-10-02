@@ -21,7 +21,7 @@ table {
     width: 300px;
     height: 150px;
     border-top: 3px solid #dc143c;
-    color: darkcyan;
+    color: mediumvioletred;
     font-weight: bold;
 }
 
@@ -143,7 +143,7 @@ p {
     justify-content: space-between;
     padding: 30px;
     align-items: center;
-    background-image: linear-gradient(9deg, #fd5f7f, rgb(0, 129, 204));
+    background-image: linear-gradient(12deg, #fd5f7f, rgb(0, 129, 204));
  }
  footer {
    left: 0px;
